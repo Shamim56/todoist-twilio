@@ -53,7 +53,7 @@ def get_todays_tasks():
                     due_today += 1
         
         send_text_message(config["twilio"]["from_phone_number"], account["number"], \
-                f'Good Morning. You currently have {due_today} items due today, and {inbox} in your inbox.'
+                f'Good Morning {account["name"]}. You currently have {due_today} items due today, and {inbox} in your inbox.'
             )
 
 

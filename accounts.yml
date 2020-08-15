@@ -5,3 +5,4 @@ todoist:
   - email: "JohnDoe@gmail.com"
     password: "MyPassword"
     number: "+11234567890"
+    name: "John"
