@@ -1,0 +1,7 @@
+twilio:
+  from_phone_number: "+11234567890"
+
+todoist:
+  - email: "JohnDoe@hotmail.com"
+    password: "MyPassword"
+    number: "+11234567890"
