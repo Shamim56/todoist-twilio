@@ -61,5 +61,5 @@ if __name__ == "__main__":
     print('starting todoist-twilio application....')
     get_todays_tasks()
     sched = BlockingScheduler(daemon=True)
-    sched.add_job(get_todays_tasks, 'cron', hour='09', minute='00')
+    sched.add_job(get_todays_tasks, 'cron', hour='9', minute='00')
     sched.start()
